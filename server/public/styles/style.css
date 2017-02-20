@@ -1,8 +1,9 @@
 body {
   padding: 40px 0px 0px 40px;
 }
+
 h1 {
-  font-family: sans-serif;
+  font-family: monospace;
   font-size: 24px;
 }
 
@@ -16,6 +17,7 @@ pre {
 
 h2 {
   font-family: sans-serif;
+  font-weight: bold;
   margin-top: 40px;
   font-size: 24px;
 }
@@ -33,7 +35,7 @@ h4 {
 }
 #navigation {
   position: fixed;
-  bottom: 200px;
+  top: 350px;
 
 }
 .box {
@@ -46,9 +48,9 @@ h4 {
 }
 
 .active {
-  background: red; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(-90deg, red, yellow); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(-90deg, red, yellow); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(-90deg, red, yellow); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(-90deg, red, yellow); /* Standard syntax */
+  background: blue; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(-90deg, blue, yellow); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-90deg, blue, yellow); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-90deg, blue, yellow); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-90deg, blue, yellow); /* Standard syntax */
 }
